@@ -13,19 +13,19 @@ Our program include functions below:
 1. Add records of user income and expenses
 
 2. Records containing basic info:
-  -Amount (total balance of expense and income)
-  -Date
-  -Type of Income (+)  (e.g. job, allowance , winning a lottery , etc) / Expense (-)  (e.g. food , leisure , laundry , etc )
-  -Account ( how many user accounts e.g. cash , credit card , octopus card, etc)
+  -Amount (in HKD with 2 decimal places)
+  -Date (ddmmyyyy)
+  -Type (income/expense)
+  -Account ( cash , debit card , octopus card)
+  -Ctaegory (food, transportation, utilities, other)
 
-3. Records can be edited and deleted at any time 
+3. Records can be edited (added or deleted) at any time 
 
-4. Users can view records by date , type and account (Search by filtering)
+4. Users can view records by type, account, category, and amount in each date (Search by filtering)
 
 5. System should provide statistical report of user’s financial state weekly
 
-6. Budget setting (set monthly or even set daily budget and give alert when the user exceeds or almost exceeds the limit) 
-  -How much u have spent (show the percentage) 
-  -Alert the user if the user has not recorded any expenses in a day
+6. Budget setting ( set weekly budget and give alert when the user exceeds the limit) 
+ 
 
 7. Weekly saving goals (give congratulations if the goal is reached) (related to budget setting but this is if user spends below budget , the system will alert the user to keep up the good work)
